@@ -1,0 +1,42 @@
+# Chelsio Communications
+
+> Chelsio Communications designs and sells high-performance Ethernet network adapters and ASICs — the Terminator (T4/T5/T6/T7) Unified Wire family — for virtualized enterprise datacenters, hyperscale clouds, cluster computing, GPU-accelerated computing and high-frequency trading. Its 1/10/25/40/50/100GbE adapters fully offload TCP, iSCSI, FCoE, iWARP RDMA and NVMe-oF on a single chip with single firmware; the T6 ASIC adds integrated cryptography offload for IPsec/TLS/SSL/DTLS.
+
+Chelsio publishes **no public developer program, REST API, or machine-readable API contract**. Its
+developer-facing surface is device drivers and management software distributed as downloads: the
+Unified Wire packages for Linux, Windows, FreeBSD and VMware ESXi, the `cxgbtool` command-line
+utility, and the Unified Wire Manager. Product and driver documentation is published as PDF from the
+service portal; board, chip and reference-driver documentation are "available upon request."
+
+## Company
+
+- [Chelsio Communications](https://www.chelsio.com/): Company website
+- [Company Overview](https://www.chelsio.com/company/): What Chelsio builds and the markets it serves
+- [Products](https://www.chelsio.com/products/): Terminator series adapter product line
+- [Blog](https://www.chelsio.com/blog/): Company blog
+- [Careers](https://www.chelsio.com/careers/): Open roles
+
+## Documentation
+
+- [Documentation](https://www.chelsio.com/documentation/): Documentation FAQ and pointers
+- [Support](https://www.chelsio.com/support/): Support portal and links to software documentation
+- [Software Downloads](https://service.chelsio.com/): Driver, firmware and Unified Wire package downloads (PDF user guides)
+- [White Papers](https://www.chelsio.com/white-papers/): Technical white papers
+- [Performance Benchmarks](https://www.chelsio.com/performance-benchmarks/): Published benchmark results
+
+## APIs
+
+None. No OpenAPI, AsyncAPI, GraphQL, MCP or A2A surface was found on any Chelsio host. Probes of
+`/openapi.json`, `/openapi.yaml`, `/swagger.json`, `/api-docs`, `/docs`, `/api`, `/llms.txt` and every
+`/.well-known/*` discovery path on `www.chelsio.com` and `service.chelsio.com` returned 404.
+
+## Artifacts
+
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/chelsio-communications/refs/heads/main/security/chelsio-communications-domain-security.yml): Probed TLS/HSTS/DNSSEC/CAA/SPF/DMARC posture
+- [Legal](https://www.chelsio.com/legal/): Liability and warranty disclaimer
+- [Privacy Policy](https://www.chelsio.com/privacy/)
+
+---
+generated: '2026-08-09'
+method: generated
+source: apis.yml + live probes of www.chelsio.com and service.chelsio.com

@@ -1,7 +1,14 @@
 aid: chelsio-communications
 name: Chelsio Communications
-description: 'Chelsio Communications is a company surfaced via the API Evangelist harvest backlog (source:
-  secondary-market) and added to the network as a stub for full-pipeline profiling.'
+description: 'Chelsio Communications designs and sells high-performance Ethernet network adapters and
+  ASICs — the Terminator (T4/T5/T6/T7) Unified Wire family — for virtualized enterprise datacenters,
+  hyperscale public and private clouds, cluster computing, GPU-accelerated computing and high-frequency
+  trading. Its 1/10/25/40/50/100GbE adapters fully offload TCP, iSCSI, FCoE, iWARP RDMA and NVMe-oF onto
+  a single chip with single firmware, and the sixth-generation T6 ASIC adds integrated cryptography
+  offload for IPsec/TLS/SSL/DTLS. Chelsio distributes Unified Wire driver packages for Linux, Windows,
+  FreeBSD and VMware ESXi plus the Unified Wire Manager management software as downloads from its
+  service portal; it publishes no public developer program, REST API or machine-readable API contract.'
+image: https://www.chelsio.com/wp-content/themes/chelsio/images/chlogo/chelsio_logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/chelsio-communications/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -12,6 +19,14 @@ created: '2026-08-09'
 modified: '2026-08-09'
 tags:
 - Company
+- Networking
+- Hardware
+- Semiconductors
+- Ethernet
+- Storage
+- RDMA
+- Data Center
+- Drivers
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -20,4 +35,38 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://www.chelsio.com/
+- type: Documentation
+  url: https://www.chelsio.com/documentation/
+- type: Support
+  url: https://www.chelsio.com/support/
+- type: Blog
+  url: https://www.chelsio.com/blog/
+- type: PrivacyPolicy
+  url: https://www.chelsio.com/privacy/
+- type: DomainSecurity
+  url: security/chelsio-communications-domain-security.yml
+- type: LLMsTxt
+  url: llms/chelsio-communications-llms.txt
+x-enrichment:
+  date: '2026-08-09'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: Chelsio is a fabless Ethernet-adapter and ASIC vendor whose entire developer surface is
+    downloadable drivers and PDF user guides on service.chelsio.com — there is no developer portal,
+    no API, and every spec and .well-known discovery path on www.chelsio.com returns the WordPress
+    404 page.
+  evidence:
+  - url: https://www.chelsio.com/openapi.json
+    status: 404
+  - url: https://www.chelsio.com/.well-known/agent-card.json
+    status: 404
+  - url: https://www.chelsio.com/documentation/
+    status: 200
+  - url: https://service.chelsio.com/openapi.json
+    status: 404
+  checked: '2026-08-09'
