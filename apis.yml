@@ -8,6 +8,17 @@ description: 'Chelsio Communications designs and sells high-performance Ethernet
   offload for IPsec/TLS/SSL/DTLS. Chelsio distributes Unified Wire driver packages for Linux, Windows,
   FreeBSD and VMware ESXi plus the Unified Wire Manager management software as downloads from its
   service portal; it publishes no public developer program, REST API or machine-readable API contract.'
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 image: https://www.chelsio.com/wp-content/themes/chelsio/images/chlogo/chelsio_logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/chelsio-communications/refs/heads/main/apis.yml
 x-type: company
