@@ -48,7 +48,7 @@ tags:
 - Ethernet
 - Storage
 - RDMA
-- Data-Center
+- Data Center
 - Drivers
 tags_raw:
 - Company
@@ -60,6 +60,7 @@ tags_raw:
 - RDMA
 - Data Center
 - Drivers
+- Data-Center
 apis: []
 maintainers:
 - FN: Kin Lane
